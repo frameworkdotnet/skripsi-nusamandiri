@@ -1,0 +1,184 @@
+@font-face {
+    font-family: 'rgenregular';
+    src: url('../font/rgen-webfont.eot');
+    src: url('../font/rgen-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/rgen-webfont.woff') format('woff'),
+         url('../font/rgen-webfont.ttf') format('truetype'),
+         url('../font/rgen-webfont.svg#rgenregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*	
+	COMMON ICONS
+	============================ 
+*/
+
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	font-size: 0px;
+	line-height: 0;
+	text-indent: -9999px;
+	vertical-align:middle;
+	text-decoration:none;
+	position:relative;
+	overflow:hidden;
+}
+.product-info .cart span a:before,
+.product-info .left .image .colorbox:before,
+#twitter ul li:before,
+.social a:before,
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	position:relative;
+	display: block;
+	margin-left:auto; margin-right:auto;
+}
+.mob-menu-wrapper:before,
+.product-info .cart span a:before,
+.product-info .left .image .colorbox:before,
+.pro-layout3 .image-additional-wrapper > .next:before,
+.pro-layout3 .image-additional-wrapper > .prev:before,
+.jcarousel-skin-opencart .jcarousel-next-horizontal:before, 
+.jcarousel-skin-opencart .jcarousel-prev-horizontal:before,
+.image-additional-wrapper .next:before, 
+.image-additional-wrapper .prev:before,
+#search .button-search:before,
+#header #cart .heading:after,
+#twitter ul li:before,
+.social a:before,
+.ph-image:before,
+.fax-image:before,
+.email-image:before,
+.slidshow-prd .box-heading:after,
+.product-filter .product-compare:after,
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+	font-family:'rgenregular';
+	font-size: inherit;
+	line-height: 0.9;
+	text-indent: 0px;
+	text-align:center;
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	text-transform:none;
+	text-decoration:none;
+}
+
+[class^="icon-"]:last-child,
+[class*=" icon-"]:last-child {
+	*margin-left: 0;
+}
+
+.product-info .left .image .colorbox:before,
+.icon-myaccount:before,
+.social a:before,
+.icon-more:before,
+.icon-compare:before,
+.icon-wishlist:before,
+.icon-cart:before {
+	font-size:16px;
+	min-width:16px;
+	min-height:16px;
+	top:50%;
+	margin-top:-8px;
+}
+.icon-wishlist:before	{ content:'a'; }
+.icon-cart:before 		{ content:'b'; }
+.icon-compare:before	{ content:'c'; }
+.icon-more:before 		{ content:'d'; }
+
+/* PRODUCT VIEW TYPE ICONS */
+.mob-menu-wrapper:before,
+.icon-list:before { content:'y'; }
+.icon-grid:before { content:'x'; }
+.mob-menu-wrapper:before,
+.icon-list:before,
+.icon-grid:before { height:18px; font-size:18px; }
+
+/* HEADER OPTIONS */
+#header #cart .heading:after,
+.header-options .icon-myaccount:before, 
+.header-options .icon-wishlist:before 	{ font-size:12px; }
+.header-options .icon-myaccount:before 	{ content: 'e'; line-height:1.2; }
+.header-options .icon-wishlist:before 	{ content: 'a'; line-height:1.4; }
+#header #cart .heading:after 			{ content:'b'; line-height:2.3; }
+#search .button-search:before { 
+	content:'n';
+	display:block;
+	height: 27px;
+	font-size:13px;
+	line-height:2;
+	}
+
+/* HOME PAGE SLIDE SHOW PRODUCTS */
+.small-prd-block .icon-compare:before,
+.small-prd-block .icon-more:before{ margin-top:-8px; }
+.slidshow-prd .open:after,
+.slidshow-prd .box-heading:after 		{ content: 'g'; font-size:18px; top:-2px; }
+.slidshow-prd .open:hover:after,
+.slidshow-prd .open:after 				{ content: 'h'; }
+
+/* COMPARE LINK ARROW ON CATEGORY PAGE */
+.product-filter .product-compare:after { content: 'i'; font-size:16px; }
+
+/* FOOTER CONTACT DETAILS */
+#footer .contact-info li span:first-child { text-align:center; }
+.ph-image:before,
+.fax-image:before,
+.email-image:before {
+	height:20px; font-size:20px;
+	margin:auto;
+	top:7px;
+	position:relative;
+	display:inline-block;
+	color: #f690a3;
+	}
+.ph-image:before { content:'o'; }
+.fax-image:before { content:'p'; }
+.email-image:before { content:'q'; }
+
+/* FOOTER SOCIAL ICONS */
+.social a:before 				{ margin-top:-8px; }
+.social .facebook-icon:before 	{ content:'r'; }
+.social .twitter-icon:before 	{ content:'s'; font-size:13px; margin-top:-7px; }
+.social .youtube-icon:before 	{ content:'t'; }
+.social .google-icon:before 	{ content:'u'; }
+.social .mailto-icon:before 	{ content:'q'; }
+.social .addthis-icon:before 	{ content:'+'; font-family:Arial, Helvetica, sans-serif; font-weight:bold; font-size:21px; margin-top:-9px; }
+
+#twitter ul li:before { position:absolute; content:'f'; font-size:35px; line-height:0.6; }
+
+/* ARROWS & PRODUCT PAGE */
+.pro-layout3 .image-additional-wrapper > .next:before,
+.pro-layout3 .image-additional-wrapper > .prev:before,
+.jcarousel-skin-opencart .jcarousel-next-horizontal:before, 
+.jcarousel-skin-opencart .jcarousel-prev-horizontal:before,
+.image-additional-wrapper .next:before,
+.image-additional-wrapper .prev:before {
+	font-size:20px;
+	position:absolute;
+	height:21px;
+}
+.pro-layout3 .image-additional-wrapper > .next:before,
+.jcarousel-skin-opencart .jcarousel-next-horizontal:before { content:'i'; }
+.pro-layout3 .image-additional-wrapper > .prev:before,
+.jcarousel-skin-opencart .jcarousel-prev-horizontal:before { content:'j'; }
+.image-additional-wrapper .prev:before { content:'k'; }
+.image-additional-wrapper .next:before { content:'l'; }
+
+.product-info .left .image .colorbox:before {
+	content:'m';
+	font-size:15px;
+}
+.product-info .cart span a:before {
+	height:20px;
+	top:50%;
+	margin-top:-10px;
+	font-size:18px;
+}
+.product-info .cart span a.plus:before { content:'g'; }
+.product-info .cart span a.minus:before { content:'h'; }
